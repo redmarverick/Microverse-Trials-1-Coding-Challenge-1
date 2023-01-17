@@ -1,0 +1,24 @@
+
+header {
+    display: flex;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: red;
+    justify-content: flex-end;
+    flex-wrap: none;
+    padding: 1em;
+  }
+  #header-img{
+    width:10%;
+  }
+  .flexbox
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media only screen and (max-width: 720px)
+  {}
